@@ -1,5 +1,6 @@
 import joblib
 import pytest
+import pandas as pd
 def test_output_format():
     # Load the model from the joblib file
     model = joblib.load('model.joblib')
