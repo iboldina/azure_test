@@ -1,3 +1,4 @@
+import joblib
 import pytest
 def test_output_format():
     # Load the model from the joblib file
